@@ -1,0 +1,153 @@
+body {
+    color: black;
+    background-color: #FBF6EF;
+}
+
+.title {
+    min-height: 25vh;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-device-width: 450px) {
+    .title {
+        height: auto;
+    }
+}
+
+.title img,
+.title h1 {
+    display: inline;
+}
+
+.title h1 {
+    font-size: 60px;
+    vertical-align: bottom;
+}
+
+.blank,
+.check,
+.go {
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .blank, .check, .go {
+        margin-bottom: 0;
+    }
+    .blank h2,
+    .check h2,
+    .go h2 {
+        margin-top: 0;
+    }
+}
+
+.blank {
+    background-color: #5CB85C;
+}
+
+.check {
+    background-color: #89C589;
+}
+
+.go {
+    background-color: #C3E0C3;
+}
+
+.blank:hover,
+.check:hover,
+.go:hover {
+    background-color: green;
+}
+
+.to-top {
+    position: fixed;
+    top: 25px;
+    right: 0;
+    z-index: 999;
+    background-color: #E0F5E0;
+    display: none;
+}
+
+.sticky-top {
+    display: inline;
+}
+
+.items {
+    margin-top: 0;
+}
+
+.sticky-items {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #E0F5E0;
+}
+
+.list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media screen and (max-device-width: 450px) {
+    .list {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+.list-item {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.list-item label {
+    margin-left: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.list-item h3 {
+    margin-top: 0;
+}
+
+.list-item .check-box {
+    cursor: pointer;
+}
+
+.sub-list-item {
+    background-color: #FFEFDB;
+    cursor: pointer;
+}
+
+.other-input {
+    background-color: #FFE6C6;
+}
+
+.sub-list-item:hover {
+    background-color: cornflowerblue;
+}
+
+.shopping-list {
+    margin-bottom: 25px;
+}
+
+.shopping-list-item label,
+.shopping-list-item .check-box {
+    cursor: pointer;
+}

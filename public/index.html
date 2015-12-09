@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FILL OUT Description Author -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <!-- -->
+    <link rel="icon" href="img/icon.ico">
+    <title>Grocery List</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-animate.min.js"></script>
+    <script src="js/angular-scroll.min.js"></script>
+    <script src="js/angular-cookies.min.js"></script>
+</head>
+
+<body ng-app="GroceryListApp">
+    <div class="container">
+        <div class="title text-center">
+            <img src="img/grocery-bag.png">
+            <h1>Grocery List</h1>
+        </div>
+        <div class="row" ng-controller="NavController" nav>
+            <div class="col-sm-4 blank" ng-click="blankList()">
+                <h2>Start Fresh</h2>
+            </div>
+            <div class="col-sm-4 check" ng-click="changeStep('checking')">
+                <h2>Build Your List</h2>
+            </div>
+            <div class="col-sm-4 go" ng-click="changeStep('shopping')">
+                <h2>Go Shopping</h2>
+            </div>
+        </div>
+        <div ng-controller="CheckListController" ng-show="userObj.step == 'checking'" ng-click="clickUpdate()">
+            <div class="row">
+                <a class="to-top" ng-class="{'sticky-top': stickyBool}" ng-click="toTop()">To Top</a>
+                <h3 class="items pull-right" ng-class="{'sticky-items': stickyBool}">{{userObj.itemsSelectedCheck}} Items</h3>
+            </div>
+            <div class="list">
+                <div class="list-item" ng-repeat="category in userObj.list">
+                    <h3>{{category.name}}</h3>
+                    <div class="sub-list-item" ng-repeat="item in category.items" ng-click="itemClick(item)">
+                        <input type="checkbox" ng-model="item.selectedCheck" ng-click="checkBoxClick()" class="check-box">
+                        <label>{{item.name}}</label>
+                    </div>
+                    <div class="sub-list-item" ng-repeat="item in category.other" ng-click="itemClick(item)">
+                        <input type="checkbox" ng-model="item.selectedCheck" ng-click="checkBoxClick()" class="check-box">
+                        <label>{{item.name}}</label>
+                    </div>
+                    <div>
+                        <div class="input-group other-input">
+                            <input type="text" placeholder="Other" ng-model="other[$index]" ng-keypress="keyPressAdd($event, $index)" class="form-control">
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" ng-click="addOther($index)">Add</button>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-controller="ShoppingListController" ng-show="userObj.step == 'shopping'" ng-click="clickUpdate()" class="shopping-list">
+            <div class="row">
+                <h3>{{userObj.itemsSelectedShopping}}/{{userObj.itemsSelectedCheck}} &nbsp {{completePercentage}}% Complete</h3>
+            </div>
+            <div class="row">
+                <uib-progressbar class="progress-striped active" value="completePercentage" type="success">{{type}}</uib-progressbar>
+            </div>
+            <div class="shopping-list">
+                <div class="shopping-list-item" ng-repeat="category in userObj.list | filter:isPopulated">
+                    <h3>{{category.name}}</h3>
+                    <div class="sub-list-item" ng-repeat="item in category.items | filter: {selectedCheck: true}" ng-click="itemClick(item)">
+                        <input type="checkbox" ng-model="item.selectedShopping" ng-click="checkBoxClick()" class="check-box">
+                        <label>{{item.name}}</label>
+                    </div>
+                    <div class="sub-list-item" ng-repeat="item in category.other | filter: {selectedCheck: true}" ng-click="itemClick(item)">
+                        <input type="checkbox" ng-model="item.selectedShopping" ng-click="checkBoxClick()" class="check-box">
+                        <label>{{item.name}}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+
+</html>

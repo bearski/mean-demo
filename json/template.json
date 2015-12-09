@@ -1,0 +1,586 @@
+{
+    "step": "checking",
+    "itemsSelectedCheck": 0,
+    "itemsSelectedShopping": 0,
+    "list": [{
+        "name": "Fruits",
+        "items": [{
+            "name": "Apples",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Bananas",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Oranges",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Berries",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Grapes",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Melons",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Vegetables",
+        "items": [{
+            "name": "Broccoli",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Carrots",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cucumbers",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Garlic",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Lettuce",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Mushrooms",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Onions",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Peppers",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Potatoes",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tomatoes",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Zucchini",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Canned Goods",
+        "items": [{
+            "name": "Beans",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Fruit",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Soup",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tomato Sauce",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tuna Fish",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Vegetables",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Frozen Foods",
+        "items": [{
+            "name": "Meals",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pizza",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Potatoes",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Vegetables",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Waffles",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Ice Cream",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Meat & Fish",
+        "items": [{
+            "name": "Beef",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Poultry",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pork",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Fish",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Bacon",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Sausage",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Deli",
+        "items": [{
+            "name": "Cold Cuts",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cheese",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Salad",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Spices",
+        "items": [{
+            "name": "Salt",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pepper",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Condiments",
+        "items": [{
+            "name": "Peanut Butter",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Jelly",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Honey",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Mayonnaise",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Mustard",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Ketchup",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pickles",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Sauces & Oils",
+        "items": [{
+            "name": "BBQ Sauce",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Oil",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Vinegar",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Salad Dressing",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Soy Sauce",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Spaghetti Suace",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Maple Syrup",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Vegetarian",
+        "items": [{
+            "name": "Tofu",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Hummus",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Soy Milk",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Snacks",
+        "items": [{
+            "name": "Pretzels",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cookies",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Chips",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Dip/Salsa",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Crackers",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Candy",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Nuts",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Popcorn",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Raisins",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Snack Bars",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Breads",
+        "items": [{
+            "name": "Sandwich",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Fresh Loaf",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Bagels",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Muffins",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pitas",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tortillas",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Beverages",
+        "items": [{
+            "name": "Water",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Juice",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Soda",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Coffee",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tea",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Dairy",
+        "items": [{
+            "name": "Milk",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Butter",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Eggs",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cheese",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cream Cheese",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Yogurt",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Pasta & Rice",
+        "items": [{
+            "name": "Spaghetti",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Rice",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Baking",
+        "items": [{
+            "name": "Sugar",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Flour",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pancake Mix",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Vanilla",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Cereal",
+        "items": [{
+            "name": "Hot Cereal",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cold Cereal",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Granola",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Toiletries",
+        "items": [{
+            "name": "Soap",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Shampoo",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Conditioner",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Razors",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Shaving Cream",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Deodorant",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Lotion",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Toothpaste",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Floss",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Pain Reliever",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Pet Items",
+        "items": [{
+            "name": "Dog Food",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cat Food",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Cat Litter",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Paper & Wrap",
+        "items": [{
+            "name": "Toilet Paper",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Paper Towels",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Tissues",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Aluminum Foil",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Plastic Wrap",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Plastic Baggies",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Household",
+        "items": [{
+            "name": "Garbage Bags",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Laundry Detergent",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Laundry Softener",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Bleach",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Dishwashing Soap",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Hand Soap",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Household Cleaner",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Glass Cleaner",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Sponges",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Batteries",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }, {
+            "name": "Light Bulbs",
+            "selectedCheck": false,
+            "selectedShopping": false
+        }],
+        "other": []
+    }, {
+        "name": "Oh Yea, And",
+        "items": [],
+        "other": []
+    }]
+}
