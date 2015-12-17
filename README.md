@@ -14,7 +14,7 @@ If the user selects 'Start Fresh' the entire document with the exception of the 
 
 ## Thanks for taking a look
 
-Any comments, criticisms and suggestions are welomed.
+Any comments, criticisms and suggestions are welcomed.
 
 Best,
 
