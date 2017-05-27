@@ -8,7 +8,9 @@ var mongoose = require('mongoose');
 var mongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var objectId = require('mongodb').ObjectID;
-var mongoUrl = '[URLTODB]';
+
+//var mongoUrl = '[URLTODB]';
+var mongoUrl = process.env.MONGODB_URI;
 
 
 app.set('port', process.env.PORT || 7003);
