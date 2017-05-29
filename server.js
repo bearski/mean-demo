@@ -9,7 +9,6 @@ var mongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var objectId = require('mongodb').ObjectID;
 
-//var mongoUrl = '[URLTODB]';
 var mongoUrl = process.env.MONGODB_URI;
 
 
@@ -18,6 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
 
 app.get('/createUser', function(req, res) {
     q.fcall(function() {
